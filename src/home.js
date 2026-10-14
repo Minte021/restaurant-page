@@ -1,4 +1,4 @@
-export default function loadeHome() {
+export default function loadHome() {
     const content = document.querySelector("#content");
 
     const homePage = document.createElement("section");
