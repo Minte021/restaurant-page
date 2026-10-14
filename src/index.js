@@ -1,3 +1,4 @@
 import "./style.css";
+import loadeHome from "./home.js";
 
-console.log("Restaurant Page is running!");
+loadeHome();
