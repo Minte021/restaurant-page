@@ -1,0 +1,41 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fffaf3;
+  color: #29231f;
+}
+
+header {
+  padding: 20px;
+  background-color: #29231f;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+nav button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  background-color: #fffaf3;
+  color: #29231f;
+  cursor: pointer;
+}
+
+nav button:hover {
+  background-color: #e5b567;
+}
+
+#content {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+}
