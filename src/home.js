@@ -24,7 +24,7 @@ export default function loadHome() {
    highlightHeading.textContent = "Made fresh, served with love";
 
    const highlightText = document.createElement("p");
-  highlightText.textContent =
+   highlightText.textContent =
     "From relaxed lunches to memorable dinners, " +
     "we make every visit special.";
 
